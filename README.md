@@ -109,6 +109,7 @@ Each project folder contains its own README.md file with detailed instructions a
 73. To Do List Manager
 74. Task Management Tool
 75. Time Tracking Software
+76. Website for An NGO for orphans
 
 This is not an exhaustive list but rather a starting point for brainstorming ideas.
 
