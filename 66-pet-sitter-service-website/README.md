@@ -65,4 +65,4 @@ The Pet Sitter Service Website is an online platform designed to connect pet own
 
 ## Project Timeline
 
-- 2 weeks
+- 2 weeks should be perfect

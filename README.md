@@ -110,6 +110,8 @@ Each project folder contains its own README.md file with detailed instructions a
 74. Task Management Tool
 75. Time Tracking Software
 76. Website for An NGO for orphans
+77. Ecommerce website for handmade products
+
 
 This is not an exhaustive list but rather a starting point for brainstorming ideas.
 
