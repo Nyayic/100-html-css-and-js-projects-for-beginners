@@ -114,6 +114,8 @@ Each project folder contains its own README.md file with detailed instructions a
 78. Flying Wallflower Sports Website
 79. Great Kids Website
 80. Better Sycamore Website
+81. Halfpint - Website
+82. Supernova
 
 
 This is not an exhaustive list but rather a starting point for brainstorming ideas.
