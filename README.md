@@ -117,7 +117,7 @@ Each project folder contains its own README.md file with detailed instructions a
 81. Halfpint - Website
 82. Supernova
 83. Dwight's Bar Website
-
+84. Word Counter App
 
 This is not an exhaustive list but rather a starting point for brainstorming ideas.
 
