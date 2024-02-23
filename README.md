@@ -119,6 +119,7 @@ Each project folder contains its own README.md file with detailed instructions a
 83. Dwight's Bar Website
 84. Word Counter App
 85. Currency Converter
+86. Digital Clock
 
 This is not an exhaustive list but rather a starting point for brainstorming ideas.
 
