@@ -110,7 +110,7 @@ Each project folder contains its own README.md file with detailed instructions a
 74. Task Management Tool
 75. Time Tracking Software
 76. Website for An NGO for orphans
-77. Real Estate Websiter
+77. Real Estate Website
 78. Flying Wallflower Sports Website
 79. Great Kids Website
 80. Better Sycamore Website
