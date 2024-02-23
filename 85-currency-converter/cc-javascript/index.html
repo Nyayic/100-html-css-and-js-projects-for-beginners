@@ -11,7 +11,6 @@
             text-align: center;
             padding: 20px;
         }
-
         #converter {
             max-width: 400px;
             margin: auto;
@@ -20,22 +19,20 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
         input {
-            width: 100%;
+            width: 90%;
             padding: 10px;
             margin-bottom: 10px;
         }
-
         button {
-            background-color: #4caf50;
+            background-color: #604caf;
             color: #fff;
             border: none;
             padding: 10px 20px;
             cursor: pointer;
             border-radius: 4px;
+            margin: 10px;
         }
-
         #result {
             font-size: 18px;
             margin-top: 20px;
@@ -54,6 +51,7 @@
             <option value="USD">USD</option>
             <option value="EUR">EUR</option>
             <option value="GBP">GBP</option>
+            <option value="UGX">UGX</option>
         </select>
 
         <label for="to">To Currency:</label>
@@ -62,6 +60,7 @@
             <option value="USD">USD</option>
             <option value="EUR">EUR</option>
             <option value="GBP">GBP</option>
+            <option value="UGX">UGX</option>
         </select>
 
         <button onclick="convertCurrency()">Convert</button>
