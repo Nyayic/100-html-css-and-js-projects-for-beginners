@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #converter {
+            max-width: 400px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        #result {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="converter">
+        <h2>Currency Converter</h2>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount" />
+
+        <label for="from">From Currency:</label>
+        <select id="from">
+            <!-- Add your currency options here -->
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+        </select>
+
+        <label for="to">To Currency:</label>
+        <select id="to">
+            <!-- Add your currency options here -->
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+        </select>
+
+        <button onclick="convertCurrency()">Convert</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function convertCurrency() {
+            const amount = document.getElementById('amount').value;
+            const fromCurrency = document.getElementById('from').value;
+            const toCurrency = document.getElementById('to').value;
+
+            fetch(`https://open.er-api.com/v6/latest/${fromCurrency}`)
+                .then(response => response.json())
+                .then(data => {
+                    const rate = data.rates[toCurrency];
+                    const result = amount * rate;
+
+                    document.getElementById('result').innerHTML = `${amount} ${fromCurrency} is equal to ${result.toFixed(2)} ${toCurrency}`;
+                })
+                .catch(error => console.error('Error fetching exchange rates:', error));
+        }
+    </script>
+</body>
+</html>
