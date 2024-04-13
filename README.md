@@ -122,6 +122,7 @@ Each project folder contains its own README.md file with detailed instructions a
 86. Digital Clock
 87. Ladies Shoe Product Page
 88. Men's Clothing Shop Homepage
+89. Timer tool following the pomodoro technique
 
 This is not an exhaustive list but rather a starting point for brainstorming ideas.
 
