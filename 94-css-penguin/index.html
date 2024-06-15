@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Penguin</title>
+    <style>
+        .penguin{
+            position: relative;
+            width: 100px;
+            height: 140px;
+            margin: 100px auto;
+            background: #000;
+            border-radius:  50% 50% 45% 45%;
+        }
+        .penguin::before{
+            content: "";
+            position: absolute;
+            width: 60px;
+            height: 100px;
+            background: #fff;
+            border-radius: 50%;
+            top: 20px;
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .penguin::after{
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: #000;
+            border-radius: 50%;
+            top: 5px;
+            left: 35px;
+        }
+        .eye{
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 30px;
+        }
+        .eye.left{
+            left:25px;
+        }
+        .eye.right{
+            right:25px;
+        }
+        .beak{
+            width: 20px;
+            height: 10px;
+            background: orange;
+            border-radius: 0 0 50% 50%;
+            position: absolute;
+            top:50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .foot{
+            width: 30px;
+            height: 10px;
+            background: orange;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -10px;
+        }
+        .foot.left{
+            left: 20px;
+        }
+        .foot.right{
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="penguin">
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+        <div class="beak"></div>
+        <div class="foot left"></div>
+        <div class="foot right"></div>
+    </div>
+</body>
+</html>
