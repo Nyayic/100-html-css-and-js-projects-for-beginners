@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.robot{
+    position: relative;
+    width:100px;
+    height: 200px;
+}
+.head{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    animation: nod 1s infinite;
+}
+.eye{
+    position: absolute;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.eye.left{
+    left: 15px;
+}
+
+.eye.right{
+    right: 15px;
+}
+.mouth{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: 20px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 10px;
+    transform: translateX(-50%);
+}
+.body{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    width: 80px;
+    height: 100px;
+    background-color: #00aaff;
+    transform: translateX(-50%);
+
+}
+.arm{
+    position: absolute;
+    top: 70px;
+    width: 20px;
+    height: 60px;
+    background-color: #ffcc00;
+    animation: wave 1s infinite;
+}
+
+.arm.left{
+    left: -20px;
+    transform-origin: top right;
+}
+
+.arm.right{
+    right: -20px;
+    transform-origin: top left;
+}
+
+.leg{
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 60px;
+    background-color: #00aaff;
+    animation: dance 1s infinite;
+}
+.leg.left{
+    left: 10px;
+    transform-origin: top center;
+}
+.leg.right{
+    right: 10px;
+    transform-origin: top center;
+}
+
+@keyframes wave {
+    0%, 100%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes nod{
+    0%, 100%{
+        transform: translateX(-50%) rotate(0);
+    }
+    50%{
+        transform: translateX(-50%) rotate(10deg);
+    }
+}
+
+@keyframes dance{
+    0%, 100% { transform: rotate(0);}
+    50%{ transform: rotate(10deg);}
+}
