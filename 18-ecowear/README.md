@@ -59,7 +59,6 @@ The website should be built using responsive web design principles, ensuring com
 
 The project timeline should aim for a launch within 14 days.
 
-
 ## Additional Information
 
 Consider incorporating eco-friendly web hosting solutions and optimizing the website for energy efficiency. EcoWear values transparency, user engagement, and a collaborative approach.
