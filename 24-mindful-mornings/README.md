@@ -3,7 +3,7 @@
 
 ## Overview
 
-MindfulMornings is a mobile application designed to guide users through mindfulness exercises, providing a positive and mindful start to their day. The app aims to promote mental well-being by offering a variety of guided activities that focus on relaxation, meditation, and self-reflection.
+MindfulMornings is a web application designed to guide users through mindfulness exercises, providing a positive and mindful start to their day. The web app aims to promote mental well-being by offering a variety of guided activities that focus on relaxation, meditation, and self-reflection.
 
 ## Key Features
 
