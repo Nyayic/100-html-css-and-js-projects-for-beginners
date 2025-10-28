@@ -1,10 +1,10 @@
-# 100 HTML, CSS and Javacript Projects for Beginners
+# 100 HTML, CSS and JavaScript Projects for Beginners
 Welcome to the "100 HTML, CSS, and JS Projects for Beginners" repository! This collection is designed to help beginners strengthen their web development skills by working on a variety of small projects. Each project focuses on HTML, CSS, and JavaScript, providing a hands-on learning experience.
 ---
 
 ## How to Use This Repository
 
-1. **Fork the Repository:**
+1. **Fork the Repository**
    Fork this repository to your GitHub account by clicking the "Fork" button at the top right of the page.
 
 2. **Clone Your Fork:**
@@ -30,7 +30,7 @@ Welcome to the "100 HTML, CSS, and JS Projects for Beginners" repository! This c
    After making changes, commit them, and push to your forked repository. Finally, create a pull request to contribute your changes back to the main repository.
 
 ## Project List
-All Project Briefs or Requirements are in specific project folders in the README.md Participants are free to create different variations of the project Briefs. All you need is to specify the variations in the project folders.
+All project briefs and requirements are inside their specific project folders. Participants are free to create different variations of each project. All you need is to specify the variations in the project folders.
 
 Each project folder contains its own README.md file with detailed instructions and specifications.
 
@@ -147,4 +147,4 @@ Feel free to use any of these resources or suggest additional resources below:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-HAPPY CODING!
+🎉 Happy Coding! 🚀
